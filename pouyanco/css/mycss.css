@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "IRANSans";
+    src:url("../fonts/IRANSans.ttf") ;
+}
+*{
+    font-family: "IRANSans", serif;
+}
+
+body
+{
+    direction: rtl;
+    background-color: #f2f2f2;
+}
+.container
+{
+    width: 90%;
+
+    height: 500px;
+    margin: 0 auto;
+
+}
+.box-shadow {
+    box-shadow: 0 0 13px #d5d5d5;
+    -webkit-box-shadow: 0 0 13px #d5d5d5;
+    -moz-box-shadow: 0 0 13px #d5d5d5;
+    -o-box-shadow: 0 0 13px #d5d5d5;
+}
+.masthead {
+    width: 100%;
+    background-color: #fdfdfd;
+    min-height: 100px;
+    margin: 7px auto;
+}
+.logo
+{
+
+    float: right;
+    margin: 2%;
+    cursor: pointer;
+}
+.topmenue li
+{
+    list-style-type: none;
+    float: left;
+    border-left: 1px solid gray;
+}
+.topmenue li a
+{
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+.topmenue li a:hover
+{
+    color:#ed1b24;
+}
+
+.logodiv
+{
+    float: right;
+}
+.topmenuediv
+{
+    margin-top:1%!important;
+}
+.navbar-nav
+{
+    float: right;
+    padding: 0;
+}
+.navbar-inverse
+{
+    background-color: #ed1b24;
+    border-color: #ed1b24;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+    color:#ffffff;
+}
+.servicesdiv
+{
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+.title_section {
+    line-height: 25px;
+    background: url("../img/title_bg.jpg") center repeat-x;
+    margin: 15px 0;
+    text-align: center;
+}
+.title_section span {
+    display: inline-block;
+    line-height: 25px;
+    font-size: 20px;
+    color: #333;
+    padding: 5px 15px;
+    background-color: #fff;
+}
+.btnnews
+{
+    background-color: #fff; color: red;width: 15%;position: absolute;top:100%;right: 42%;z-index: 1;
+}
+.btnnews:hover{
+    background-color: #ed1b24;
+    color:white;
+}
+
+.news a
+{
+    color: black;
+    cursor: pointer;
+
+}
+.news a:hover
+{
+    color: #6b6b6b;
+}
+
+.news a:hover img
+{
+    box-shadow: 0 0 13px #7e7e7e;
+}
+.navbar{
+    margin-bottom: 6px;
+}
+.citation a:hover img
+{
+    box-shadow: 0 0 13px #7e7e7e;
+}
+.serviceicon
+{
+    font-size: 70px;
+    color: #ed1b24;
+    margin-top: 9%;
+    margin-bottom: 6%;
+}
+.textservices p
+{
+    color:black !important;
+}
